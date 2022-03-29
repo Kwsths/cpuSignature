@@ -8,12 +8,8 @@ After downloading the .iso file use it  to create a bootable usb stick with that
 ***
 After booting your device with Linux, do the following
 ```sh
-$ df -h # check the partition where is mounted the usb drive
-$ sudo mount -o remount,rw /partition/identifier /cdrom
-$ cd /cdrom/boot/cpu-signature
-$ sudo cp -R measure/ /mnt/.
 $ cd /mnt/measure/
-$ ./multiple_execs.h # run it two times if you want
+$ ./multiple_execs.sh # run it two times if you want
 ```
 After running the above commands  the measurements from your pc will be stored on /cdrom/boot/cpu-signature/{md5sum-string} on your usb stick.
 Just send a pull request adding  the files in the uploads folder of this repository in order to include your machine in the data set.
