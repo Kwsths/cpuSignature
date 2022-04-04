@@ -1,5 +1,5 @@
 # cpuSignature
-From the following the: https://drive.google.com/drive/folders/1M6U7kAx36MRMHpl52LHSX7-CAUoQJb8F?usp=sharing you can download the .iso file that contains our tool
+From the following the: https://drive.google.com/drive/folders/1M6U7kAx36MRMHpl52LHSX7-CAUoQJb8F?usp=sharing you can download the .iso(ubuntu-18.04.4-desktop-amd64-custom-cpu-sign.iso) file that contains our tool
 # Directions to use our tool
 
 After downloading the .iso file use it  to create a bootable usb stick with that file. [Here](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview) you can find usefull information on how to do it.
